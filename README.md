@@ -1,6 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/gMYYc2sg)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15377575&assignment_repo_type=AssignmentRepo)
-
 # README
 
 ## Project Overview
@@ -40,7 +37,7 @@ pip install tensorflow torch opencv-python-headless numpy matplotlib pillow
 - emotion_model_15.pth: Pre-trained PyTorch model for emotion detection.
 - Starry-Night.png: Style image used for style transfer.
 - captured_image.jpg: Image captured from the webcam before style transfer.
-- best_generated_image.npy: Best stylized image generated during training.
+- best_generated_image.npy: The best-stylized image was generated during training.
 - captured_image_2.jpg: Image captured from the webcam after style transfer.
 
 
@@ -49,13 +46,13 @@ pip install tensorflow torch opencv-python-headless numpy matplotlib pillow
 - clone the repository and navigate to the project directory
 - Run the run.ipynb file
 
-### The scrpt will:
+### The script will:
 
 - Capture an image from your webcam.
 - Predict the initial emotion and display it.
 - Apply style transfer to the captured image.
 - Capture another image after displaying the stylized image.
-- Predict the new emotion and display it, along with the target emotion.
+- Predict and display the new emotion, along with the target emotion.
 
 ### Emotion Classes
 
@@ -70,4 +67,4 @@ The emotion detection model recognizes the following emotions:
 - Neutral
 
 
-Feel free to adjust parameters such as epochs, patience, and learning_rate to experiment with different training configurations.
+You can adjust parameters such as epochs, patience, and learning_rate to experiment with different training configurations.
